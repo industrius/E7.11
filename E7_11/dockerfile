@@ -3,5 +3,4 @@ RUN mkdir /data
 WORKDIR /data
 ADD requirments.txt /data
 RUN pip install -r requirments.txt
-RUN python manage.py migrate
 ADD . /data
